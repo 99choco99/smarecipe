@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+/* Centered Form Styling */
+form {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input Styling */
+input[type="text"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+input[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Dropdown Menu */
+select#cuisine {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Dropdown Options */
+select#cuisine option {
+  font-size: 16px;
+}
+
+/* Label */
+.subheading {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Checkbox Container */
+.checkbox-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 400px;
+}
+
+/* Individual Checkbox Groups */
+.checkbox-group {
+  flex: 0 0 calc(50% - 5px);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Checkbox Labels */
+label.checkbox-label {
+  display: inline-block;
+  margin-right: 10px;
+}
