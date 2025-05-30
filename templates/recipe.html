@@ -1,11 +1,11 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>2020810013 김승혁 Generated Recipe</title>
-</head>
-<body>
-    <h2>2020810013 김승혁 Your Recipe:</h2>
-    <p>{{ recipe|safe }}</p>
-    <a href="/">Generate another recipe</a>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<div id="root" class="container">
+    <div class="page-header">
+        <h2 class="alert alert-success">Generated Recipe</h2>
+        <p>{{ recipe|safe }}</p>
+        <a href="/">Generate another recipe</a>
+    </div>
+</div>
+{% endblock %}
